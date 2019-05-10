@@ -121,7 +121,7 @@ body {
 }
 
 .container{
-	float:left;
+	/* float:left; */
 }
 
 .tableLegend{
