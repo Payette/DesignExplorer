@@ -38,7 +38,7 @@ buildChart = function(dataList, propertiesDict) {
   }
 
   // convert svg width in 12/ths to pixels.
-  windowTwelf = parseInt(window.innerWidth/12)
+  windowTwelf = parseInt(1100/12)
   svgwidth = (windowTwelf * svgwidth) - 5
   svgheight = (windowTwelf * svgheight) - 5
 

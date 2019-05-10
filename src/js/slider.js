@@ -106,8 +106,8 @@ function stylizeSliders(){
   }
 
   // set all slider divs to have the same width.
-  windowTwelf = parseInt(window.innerWidth/12)
-  width = (windowTwelf * sliderWidth) - 2
+  windowTwelf = parseInt(1100/12)
+  width = 370
   d3.selectAll('.slider')
     .style("width", width.toString()+'px')
     .style("height", '100px')

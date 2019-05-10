@@ -3,7 +3,7 @@
 buildAll = function() {
   // set styles of key elements on the paramSettingView
   d3.selectAll('#study_results')
-    .style("width", window.innerWidth.toString()+'px')
+    .style("width", '1200 px')
 
   stylizeSliders()
 
