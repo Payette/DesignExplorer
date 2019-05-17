@@ -275,7 +275,7 @@ function showStillLink() {
 
     }else if (_folderInfo.DE_PW.length>0){
         // if _folderInfo.DE_PW existed, just return.
-        studyEncodedUrl = document.location.origin + "/design_explorer_lite/?ID=" + _folderInfo.DE_PW;
+        studyEncodedUrl = document.location.origin + "/PayetteDesignExplorer/?ID=" + _folderInfo.DE_PW;
         d3.select("#showShortUrl").html("https://goo.gl/" +_folderInfo.DE_PW);
         d3.select("#myStudyID").html(studyEncodedUrl);
         $("#showStillLink").modal();
@@ -286,9 +286,9 @@ function showStillLink() {
     //valid online folder available
     var siteOrigin = document.location.origin;
     if (siteOrigin.includes('127.0.0.1')||siteOrigin.toLowerCase().includes('localhost')) {
-        siteOrigin = 'https://www.ladybug.tools/design_explorer_lite'
+        siteOrigin = 'https://lukegehron.github.io/PayetteDesignExplorer'
     }
-    var studyLongUrl = siteOrigin +"/design_explorer_lite/?ID="+ studyCaseLink;
+    var studyLongUrl = siteOrigin +"//PayetteDesignExplorer/?ID="+ studyCaseLink;
     d3.select("#welcome").style("display","none");
 
 
@@ -301,7 +301,7 @@ function showStillLink() {
 
         if(UrlId.length ==6){ // google url id
 
-            studyEncodedUrl = siteOrigin +"/design_explorer_lite/?ID="+_folderInfo.DE_PW;
+            studyEncodedUrl = siteOrigin +"/PayetteDesignExplorer/?ID="+_folderInfo.DE_PW;
             d3.select("#showShortUrl").html("https://goo.gl/"+ _folderInfo.DE_PW);
 
         }else{
