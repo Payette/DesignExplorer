@@ -1,5 +1,5 @@
-# Design Explorer Lite
-A lighter version of design explorer meant to display sliders for the inputs and simple images, charts and metrics for outputs.
+# Payette Design Explorer
+A forked version of the LadyBug design explorer meant to display sliders for the inputs and simple images, charts and metrics for outputs.
 http://www.ladybug.tools/design_explorer_lite/
 
 # Interface
