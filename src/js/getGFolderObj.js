@@ -275,7 +275,7 @@ function showStillLink() {
 
     }else if (_folderInfo.DE_PW.length>0){
         // if _folderInfo.DE_PW existed, just return.
-        studyEncodedUrl = document.location.origin + "/DesignExplorer/?ID=" + _folderInfo.DE_PW;
+        studyEncodedUrl = "https://www.payette.com/designexplorer" + "/DesignExplorer/?ID=" + _folderInfo.DE_PW;
         d3.select("#showShortUrl").html("https://goo.gl/" +_folderInfo.DE_PW);
         d3.select("#myStudyID").html(studyEncodedUrl);
         $("#showStillLink").modal();
@@ -284,7 +284,7 @@ function showStillLink() {
     }
 
     //valid online folder available
-    var siteOrigin = document.location.origin;
+    var siteOrigin = 'https://www.payette.com/designexplorer/';
     if (siteOrigin.includes('127.0.0.1')||siteOrigin.toLowerCase().includes('localhost')) {
         siteOrigin = 'https://www.payette.com/designexplorer/'
     }
