@@ -286,7 +286,7 @@ function showStillLink() {
     //valid online folder available
     var siteOrigin = document.location.origin;
     if (siteOrigin.includes('127.0.0.1')||siteOrigin.toLowerCase().includes('localhost')) {
-        siteOrigin = 'https://payette.github.io/DesignExplorer'
+        siteOrigin = 'https://www.payette.com/designexplorer/'
     }
     var studyLongUrl = siteOrigin +"/DesignExplorer/?ID="+ studyCaseLink;
     d3.select("#welcome").style("display","none");
