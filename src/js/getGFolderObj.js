@@ -288,7 +288,7 @@ function showStillLink() {
     if (siteOrigin.includes('127.0.0.1')||siteOrigin.toLowerCase().includes('localhost')) {
         siteOrigin = 'https://lukegehron.github.io/PayetteDesignExplorer'
     }
-    var studyLongUrl = siteOrigin +"//PayetteDesignExplorer/?ID="+ studyCaseLink;
+    var studyLongUrl = siteOrigin +"/PayetteDesignExplorer/?ID="+ studyCaseLink;
     d3.select("#welcome").style("display","none");
 
 
